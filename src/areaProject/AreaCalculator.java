@@ -5,17 +5,21 @@ import java.util.Iterator;
 
 public class AreaCalculator {
 		private ArrayList<Shape> shapes= new ArrayList<Shape>();
+		private double areasum;
 		
+		public double getAreasum() {
+			return areasum;
+		}
+
 		public void calcuate(){
 				Iterator<Shape> iter= shapes.iterator();
-				double areasum=0.0;
+				areasum=0.0;
 				while(iter.hasNext()){
 					Shape curShape=iter.next();
 					areasum += curShape.area();
 				}
-				System.out.println(areasum);
 		}
-		
+				
 		public void addShape(Shape s){
 			shapes.add(s);
 		}
