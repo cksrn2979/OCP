@@ -9,7 +9,7 @@ public class Main {
 		
 			Circle c1 = new Circle(20);
 			
-			AreaCaculator ac= new AreaCaculator();
+			AreaCalculator ac= new AreaCalculator();
 			ac.addShape(r1);
 			ac.addShape(r2);
 			ac.addShape(c1);

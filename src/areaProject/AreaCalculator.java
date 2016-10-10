@@ -3,7 +3,7 @@ package areaProject;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class AreaCaculator {
+public class AreaCalculator {
 		private ArrayList<Shape> shapes= new ArrayList<Shape>();
 		
 		public void calcuate(){
